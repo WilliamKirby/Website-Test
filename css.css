@@ -1,0 +1,60 @@
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+
+body{
+	background: #fff url('Bg.jpg');
+	background-size: 100% auto;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#Con1{
+	margin: auto;
+	margin-top: 5%;
+	width: 26%;	
+	border-radius: 20px;
+}
+#Con1 h1{
+	font-size: 24px;
+	text-align: center;
+	padding:10px;
+	font-family: 'Pacifico', cursive;
+}
+#Con1 h2{
+	font-size: 20px;
+	text-align: center;
+	padding:10px;
+	font-family: 'Pacifico', cursive;
+}
+#Boxes{
+	margin:8% auto;
+	width:50%;
+	background-color: #EFBBFA;
+}
+#Boxes ul{
+	text-align: center;
+	line-height: 100px;
+	vertical-align: middle;
+}
+#Boxes li{
+	float: left;
+	font-family: 'Lobster', cursive;
+	background-color: #EBFFF8;
+	margin:auto;
+	width:30%;
+	height: 20%;
+	padding:10px 10px;
+	padding-bottom: 15px;
+	opacity: 0.6;
+}
+#Boxes ul li:hover{
+	background-color:#CDB5FF;
+	opacity:0.9;
+	cursor:pointer;
+}
+#PhotoCap{
+	text-align: center;
+	font-size: 10px;
+	color: #000000;
+	margin:auto;
+	margin-top: 34%;
+}
