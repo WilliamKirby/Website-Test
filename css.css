@@ -2,10 +2,11 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 
 body{
-	background: #fff url('Bg.jpg');
+	background-image: url('Bg.jpg');
 	background-size: 100% auto;
 	background-position: center;
 	background-repeat: no-repeat;
+	transition: background 0.5s linear;
 }
 #Con1{
 	margin: auto;
